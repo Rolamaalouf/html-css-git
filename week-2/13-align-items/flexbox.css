@@ -13,7 +13,7 @@
   align-items: center;
 }
 .countries--second {
-  flex-direction: row-reverse; /* Already set */
+  flex-direction: row-reverse;
   justify-content: end;
   align-items: end;
 }
