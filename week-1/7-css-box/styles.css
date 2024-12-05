@@ -10,10 +10,10 @@
 /* Style each country item */
 .country {
   padding: 10px; /* Space inside each item */
-  margin: 10px 0; /* Space between items (top and bottom) */
+  margin: 5px 0; /* Space between items (top and bottom) */
   border: 1px solid #ccc; /* Light border for separation */
   background-color: #f9f9f9; /* Light gray background for better visibility */
-  border-radius: 10px; /* Optional: Rounded corners for aesthetics */
+  border-radius: 0px; /* Optional: Rounded corners for aesthetics */
 }
 .pages__showing {
   display: inline-block; /* Ensures it behaves like inline text */
