@@ -1,1 +1,38 @@
 /* Add your own CSS code below */
+@media (min-width: 992px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+}
+.nav-menu {
+  display: flex;
+  gap: 1rem;
+}
+@media (min-width: 767px) {
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  views {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .views a {
+    margin-right: 1rem;
+  }
+
+  .view-all {
+    margin-left: auto;
+  }
+}
+.article {
+  max-width: 50em;
+  margin: 0 auto;
+  line-height: 1.8; /* Adjust line spacing */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
