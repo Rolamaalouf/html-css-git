@@ -4,9 +4,25 @@
     font-size: 2.5rem;
   }
 }
-.nav-menu {
-  display: flex;
-  gap: 1rem;
+.site-header {
+  display: flex; /* Make the header a flex container */
+  justify-content: space-between; /* Space the header elements evenly */
+  align-items: center; /* Align items vertically */
+}
+
+.main-nav {
+  display: flex; /* Make the navigation a flex container */
+}
+
+.main-nav__list {
+  list-style: none; /* Remove default list styling */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Make the list items display inline-flex */
+}
+
+.main-nav__list-item {
+  margin-right: 20px; /* Add spacing between list items */
 }
 @media (min-width: 767px) {
   .header {
